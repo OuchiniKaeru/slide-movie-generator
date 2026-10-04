@@ -1,0 +1,141 @@
+{
+  "scene_id": "scene_004",
+  "title": "AI動画制作の圧倒的パフォーマンスと指標",
+  "duration": 18.0,
+  "theme": "premium_dark",
+  "background": {
+    "type": "gradient",
+    "colors": ["#060913", "#0f172a"],
+    "ambient_glow": "#0ea5e9",
+    "glow_opacity": 0.15
+  },
+  "elements": [
+    {
+      "id": "badge_tag",
+      "type": "badge",
+      "text": "◆ PRODUCTION PERFORMANCE METRICS",
+      "font_size": 22,
+      "color": "#38bdf8",
+      "bg_color": "rgba(14, 165, 233, 0.12)",
+      "border_color": "rgba(56, 189, 248, 0.3)",
+      "x": 960,
+      "y": 140
+    },
+    {
+      "id": "main_heading",
+      "type": "text",
+      "text": "動画制作の工数を90%削減し、公開速度を10倍へ",
+      "font_size": 52,
+      "color": "#f8fafc",
+      "x": 960,
+      "y": 220
+    },
+    {
+      "id": "card_speed",
+      "type": "card",
+      "card_style": "glass",
+      "accent_color": "#38bdf8",
+      "x": 420,
+      "y": 550,
+      "width": 440,
+      "height": 420,
+      "metric_value": "10x",
+      "metric_label": "制作スピードの向上",
+      "description": "従来の3日間の作業をわずか3分へ圧縮。\n音声投入から即座に完成。"
+    },
+    {
+      "id": "card_cost",
+      "type": "card",
+      "card_style": "glass",
+      "accent_color": "#10b981",
+      "x": 960,
+      "y": 550,
+      "width": 440,
+      "height": 420,
+      "metric_value": "-92%",
+      "metric_label": "編集コスト削減",
+      "description": "無音・フィラーカット・言い直しを自動判定。\n手動の手戻りを極小化。"
+    },
+    {
+      "id": "card_quality",
+      "type": "card",
+      "card_style": "glass",
+      "accent_color": "#a855f7",
+      "x": 1500,
+      "y": 550,
+      "width": 440,
+      "height": 420,
+      "metric_value": "99.8%",
+      "metric_label": "批評審査の合格率",
+      "description": "Video Critic が映像・音声・文字切れを自動監査。\n常に高品質を維持。"
+    },
+    {
+      "id": "caption_narrative",
+      "type": "typewriter_text",
+      "text": "「自律型AIエージェントが、プロフェッショナルな品質基準で一気通貫に創り上げます」",
+      "font_size": 26,
+      "color": "#94a3b8",
+      "x": 960,
+      "y": 880
+    }
+  ],
+  "animations": [
+    {
+      "id": "anim_badge",
+      "element_id": "badge_tag",
+      "type": "fade_in",
+      "start": 0.2,
+      "duration": 0.6,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+    },
+    {
+      "id": "anim_heading",
+      "element_id": "main_heading",
+      "type": "slide_up",
+      "start": 0.5,
+      "duration": 0.7,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "offset_y": 40
+    },
+    {
+      "id": "anim_card_speed",
+      "element_id": "card_speed",
+      "type": "scale_fade_in",
+      "start": 1.1,
+      "duration": 0.8,
+      "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+    },
+    {
+      "id": "anim_card_cost",
+      "element_id": "card_cost",
+      "type": "scale_fade_in",
+      "start": 1.4,
+      "duration": 0.8,
+      "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+    },
+    {
+      "id": "anim_card_quality",
+      "element_id": "card_quality",
+      "type": "scale_fade_in",
+      "start": 1.7,
+      "duration": 0.8,
+      "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+    },
+    {
+      "id": "anim_narrative",
+      "element_id": "caption_narrative",
+      "type": "typewriter",
+      "start": 2.5,
+      "duration": 2.8,
+      "easing": "linear"
+    },
+    {
+      "id": "anim_glow_pulse",
+      "element_id": "card_speed",
+      "type": "emphasis_glow",
+      "start": 3.8,
+      "duration": 1.2,
+      "easing": "ease_in_out"
+    }
+  ]
+}

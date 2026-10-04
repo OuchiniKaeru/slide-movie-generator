@@ -1,0 +1,73 @@
+{
+  "scene_id": "scene_001",
+  "title": "タイトルスライド",
+  "duration": 12.0,
+  "background": {
+    "type": "solid",
+    "color": "#0b0f19"
+  },
+  "elements": [
+    {
+      "id": "badge_tag",
+      "type": "text",
+      "text": "◆ AI VIDEO PRODUCTION PLATFORM",
+      "font_size": 26,
+      "color": "#38bdf8",
+      "x": 960,
+      "y": 320
+    },
+    {
+      "id": "main_title",
+      "type": "text",
+      "text": "次世代AI動画制作の全貌",
+      "font_size": 72,
+      "color": "#f8fafc",
+      "x": 960,
+      "y": 450
+    },
+    {
+      "id": "sub_title",
+      "type": "text",
+      "text": "音声を入力するだけで、編集・構成・スライド生成から動画出力まで自動完結",
+      "font_size": 30,
+      "color": "#94a3b8",
+      "x": 960,
+      "y": 580
+    },
+    {
+      "id": "footer_label",
+      "type": "text",
+      "text": "Video Production Agent System — Version 1.0",
+      "font_size": 22,
+      "color": "#64748b",
+      "x": 960,
+      "y": 960
+    }
+  ],
+  "animations": [
+    {
+      "id": "anim_001",
+      "element_id": "badge_tag",
+      "type": "fade_in",
+      "start": 0.2,
+      "duration": 0.6,
+      "easing": "ease_out"
+    },
+    {
+      "id": "anim_002",
+      "element_id": "main_title",
+      "type": "scale",
+      "start": 0.5,
+      "duration": 0.8,
+      "easing": "ease_out"
+    },
+    {
+      "id": "anim_003",
+      "element_id": "sub_title",
+      "type": "slide",
+      "start": 1.0,
+      "duration": 0.6,
+      "easing": "ease_out"
+    }
+  ]
+}

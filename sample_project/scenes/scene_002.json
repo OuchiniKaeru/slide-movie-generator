@@ -1,0 +1,144 @@
+{
+  "scene_id": "scene_002",
+  "title": "3ステップの仕組み解説",
+  "duration": 25.0,
+  "background": {
+    "type": "solid",
+    "color": "#0b0f19"
+  },
+  "elements": [
+    {
+      "id": "header_category",
+      "type": "text",
+      "text": "SYSTEM ARCHITECTURE",
+      "font_size": 24,
+      "color": "#38bdf8",
+      "x": 960,
+      "y": 140
+    },
+    {
+      "id": "header_title",
+      "type": "text",
+      "text": "自律型エージェントの3つのコアプロセス",
+      "font_size": 54,
+      "color": "#f8fafc",
+      "x": 960,
+      "y": 210
+    },
+    {
+      "id": "card_step1_badge",
+      "type": "text",
+      "text": "STEP 01",
+      "font_size": 22,
+      "color": "#38bdf8",
+      "x": 400,
+      "y": 420
+    },
+    {
+      "id": "card_step1_title",
+      "type": "text",
+      "text": "音声解析 & 編集",
+      "font_size": 36,
+      "color": "#ffffff",
+      "x": 400,
+      "y": 480
+    },
+    {
+      "id": "card_step1_desc",
+      "type": "text",
+      "text": "無音・フィラーを自動検出\n文脈を保ち非破壊で最適化",
+      "font_size": 24,
+      "color": "#94a3b8",
+      "x": 400,
+      "y": 570
+    },
+    {
+      "id": "card_step2_badge",
+      "type": "text",
+      "text": "STEP 02",
+      "font_size": 22,
+      "color": "#818cf8",
+      "x": 960,
+      "y": 420
+    },
+    {
+      "id": "card_step2_title",
+      "type": "text",
+      "text": "構成 & スライド設計",
+      "font_size": 36,
+      "color": "#ffffff",
+      "x": 960,
+      "y": 480
+    },
+    {
+      "id": "card_step2_desc",
+      "type": "text",
+      "text": "起承転結のシーン分割\n認知負荷の低いScene DSL生成",
+      "font_size": 24,
+      "color": "#94a3b8",
+      "x": 960,
+      "y": 570
+    },
+    {
+      "id": "card_step3_badge",
+      "type": "text",
+      "text": "STEP 03",
+      "font_size": 22,
+      "color": "#34d399",
+      "x": 1520,
+      "y": 420
+    },
+    {
+      "id": "card_step3_title",
+      "type": "text",
+      "text": "映像化 & 品質審査",
+      "font_size": 36,
+      "color": "#ffffff",
+      "x": 1520,
+      "y": 480
+    },
+    {
+      "id": "card_step3_desc",
+      "type": "text",
+      "text": "アニメーション・字幕の同期合成\nCriticによる自動品質チェック",
+      "font_size": 24,
+      "color": "#94a3b8",
+      "x": 1520,
+      "y": 570
+    }
+  ],
+  "animations": [
+    {
+      "id": "anim_001",
+      "element_id": "header_title",
+      "type": "fade_in",
+      "start": 0.2,
+      "duration": 0.5,
+      "easing": "ease_out"
+    },
+    {
+      "id": "anim_002",
+      "element_id": "card_step1_title",
+      "type": "reveal",
+      "start": 1.0,
+      "duration": 0.6,
+      "easing": "ease_out"
+    },
+    {
+      "id": "anim_003",
+      "element_id": "card_step2_title",
+      "type": "reveal",
+      "start": 2.2,
+      "duration": 0.6,
+      "easing": "ease_out"
+    },
+    {
+      "id": "anim_004",
+      "element_id": "card_step3_title",
+      "type": "reveal",
+      "start": 3.4,
+      "duration": 0.6,
+      "easing": "ease_out"
+    }
+  ]
+}

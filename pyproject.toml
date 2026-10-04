@@ -1,0 +1,26 @@
+[project]
+name = "video-production-tools"
+version = "0.1.0"
+description = "AI Voice Video Production Agent Tools and Skills"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+audio = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "soundfile>=0.12.0",
+]
+
+[project.scripts]
+video-tools = "tools.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["tools"]

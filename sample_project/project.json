@@ -1,0 +1,11 @@
+{
+  "project_id": "sample_test_project",
+  "status": "designing",
+  "current_stage": "designing",
+  "config": {
+    "video": {
+      "resolution": "1920x1080",
+      "fps": 30
+    }
+  }
+}

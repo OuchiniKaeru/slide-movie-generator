@@ -1,0 +1,119 @@
+{
+  "scene_id": "scene_003",
+  "title": "手動 vs AIエージェント 比較スライド",
+  "duration": 20.0,
+  "background": {
+    "type": "solid",
+    "color": "#0b0f19"
+  },
+  "elements": [
+    {
+      "id": "header_tag",
+      "type": "text",
+      "text": "EFFICIENCY & PRODUCTIVITY",
+      "font_size": 24,
+      "color": "#38bdf8",
+      "x": 960,
+      "y": 140
+    },
+    {
+      "id": "header_title",
+      "type": "text",
+      "text": "従来の手動動画制作 vs AIエージェント制作",
+      "font_size": 52,
+      "color": "#f8fafc",
+      "x": 960,
+      "y": 210
+    },
+    {
+      "id": "left_card_label",
+      "type": "text",
+      "text": "手動制作（従来）",
+      "font_size": 36,
+      "color": "#f87171",
+      "x": 580,
+      "y": 380
+    },
+    {
+      "id": "left_point_1",
+      "type": "text",
+      "text": "● 波形を見ながらの地道な手動カット",
+      "font_size": 26,
+      "color": "#cbd5e1",
+      "x": 580,
+      "y": 480
+    },
+    {
+      "id": "left_point_2",
+      "type": "text",
+      "text": "● 構成案・スライドの手作業デザイン",
+      "font_size": 26,
+      "color": "#cbd5e1",
+      "x": 580,
+      "y": 560
+    },
+    {
+      "id": "left_point_3",
+      "type": "text",
+      "text": "● 制作所要時間: 数時間 〜 数日",
+      "font_size": 26,
+      "color": "#ef4444",
+      "x": 580,
+      "y": 640
+    },
+    {
+      "id": "right_card_label",
+      "type": "text",
+      "text": "AIエージェント（本システム）",
+      "font_size": 36,
+      "color": "#34d399",
+      "x": 1340,
+      "y": 380
+    },
+    {
+      "id": "right_point_1",
+      "type": "text",
+      "text": "● AIが無音・フィラー・言い直しを自動判定",
+      "font_size": 26,
+      "color": "#f8fafc",
+      "x": 1340,
+      "y": 480
+    },
+    {
+      "id": "right_point_2",
+      "type": "text",
+      "text": "● Scene DSLでスライド・アニメを自動設計",
+      "font_size": 26,
+      "color": "#f8fafc",
+      "x": 1340,
+      "y": 560
+    },
+    {
+      "id": "right_point_3",
+      "type": "text",
+      "text": "● 制作所要時間: 音声入力から数分で完了",
+      "font_size": 26,
+      "color": "#10b981",
+      "x": 1340,
+      "y": 640
+    }
+  ],
+  "animations": [
+    {
+      "id": "anim_001",
+      "element_id": "left_card_label",
+      "type": "slide",
+      "start": 0.5,
+      "duration": 0.6,
+      "easing": "ease_out"
+    },
+    {
+      "id": "anim_002",
+      "element_id": "right_card_label",
+      "type": "slide",
+      "start": 1.2,
+      "duration": 0.6,
+      "easing": "ease_out"
+    }
+  ]
+}
